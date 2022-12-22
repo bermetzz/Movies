@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    android:id="@+id/cardViewCard"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_marginVertical="20dp"
+        android:id="@+id/poster"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/rounded_corners"
+        android:layout_gravity="top|start"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/title"
+        android:layout_gravity="top|start"
+        />
+    <TextView
+        android:layout_marginTop="70dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:id="@+id/description"
+        android:layout_gravity="top|start"
+        />
+    <TextView
+        android:textColor="@color/white"
+        android:layout_gravity="top|end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mark"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"/>
+
+</androidx.cardview.widget.CardView>
